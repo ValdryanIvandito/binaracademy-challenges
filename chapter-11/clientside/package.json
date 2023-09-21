@@ -1,0 +1,33 @@
+{
+  "name": "client-side",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "antd": "^5.8.3",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.1",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.6.0",
+    "next": "^11.1.4",
+    "puppeteer": "^21.1.0",
+    "puppeteer-core": "^21.1.0",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.14.2",
+    "reactstrap": "^8.10.1",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-plugin-react": "^7.33.2"
+  }
+}

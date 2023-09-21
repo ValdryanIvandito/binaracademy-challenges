@@ -1,0 +1,29 @@
+MENJALANKAN DOKUMENTASI API SWAGGER
+Step-1, cd BinarAcademy_Challenge_FSWC8
+Step-2, npm install
+Step-3, cd server
+Step-4, sequelize db:create
+Step-5, npx sequelize db:migrate
+Step-6, npx sequelize db:seed:all
+
+Database:
+- Host: 127.0.0.1
+- Port: 4000
+- Username: postgres
+- Password: admin
+- Database: c8-dev
+- Table: Players
+
+Step-7, npm start
+
+Step-8, http://localhost:4000/api/v1/docs/
+
+
+MENJALANKAN REACT-APP
+Step-1, cd client
+Step-2, npm install
+step-3, npm start
+step-4, panggil url dibawah ini:
+Halaman Register: http://localhost:3000/register
+Halaman Edit: http://localhost:3000/edit
+Halaman Player List: http://localhost:3000/list

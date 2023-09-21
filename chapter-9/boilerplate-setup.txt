@@ -1,0 +1,5 @@
+npx express --view ejs --git BinarAcademy_Challenge_FSWC9
+npm install nodemon -D dotenv-load -D
+npm install sequelize pg pg-hstore
+npm install joi
+npm install swagger-ui-express swagger-jsdoc

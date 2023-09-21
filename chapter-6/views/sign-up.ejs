@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #9C835F;
+    }
+    .container {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: white;
+    }
+    form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    label {
+      color: #9C835F;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h1>Create Account</h1>
+
+        <% if (typeof errors != 'undefined') { %>
+          <div class="alert alert-danger" role="alert">
+              <ul>
+                  <% errors.forEach(error => { %>
+                      <li><%= error.msg %></li>
+                  <% }) %>
+              </ul>
+          </div>
+        <% } %>
+
+        <form method="post" action="/profile">
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" class="form-control" id="username" name="username" required>
+          </div>
+          <div class="form-group">
+            <label for="sex">Sex:</label>
+            <select class="form-control" id="sex" name="sex">
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="birthday">Birthday:</label>
+            <input type="date" class="form-control" id="birthday" name="birthday" required>
+          </div>
+          <div class="form-group">
+            <label for="hobby">Hobby:</label>
+            <input type="text" class="form-control" id="hobby" name="hobby" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+          </div>
+          <div class="form-group">
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" class="form-control" id="confirm-password" name="confirm-password" required>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

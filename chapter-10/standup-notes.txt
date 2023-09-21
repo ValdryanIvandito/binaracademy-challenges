@@ -1,0 +1,17 @@
+1. Modifikasi Navbar supaya menampilkan profile (welcome username / email) dan scores. (PIC: Soman)
+2. Ubah logic / konsep penilaian di game: (PIC: Ignasio & Backup-Valdryan)
+   Pertimbangan.
+   Ide val:
+   a. game_rps_history: (username, status, created_date)
+   b. game_coin
+   c. game_dice
+   kelebihan: query sederhana
+   kekurangan: kebanyakan table
+   Ide soman: game_history: (game_name, username, status, scores, created_date)
+   kelebihan: table cukup satu
+   kekurangan: query lebih kompleks butuh banyak filter
+3. Buat status game sudah dimainkan / game belum dimainkan + buat dummy games . (PIC: Soman)
+4. Fitur dynamic button (PIC: Rizky)
+5. Tolong kasih referensi contoh coding implementasi redux (PIC: Kurnia)
+
+

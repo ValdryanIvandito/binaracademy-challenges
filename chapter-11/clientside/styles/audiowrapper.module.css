@@ -1,0 +1,68 @@
+.audiowrapper {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(73, 70, 70);
+    color: snow;
+    z-index: 9999;
+}
+  
+.audioWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: max-height 0.5s ease-in-out;
+    overflow: hidden;
+    max-height: 300px; 
+}
+  
+.audioVisible {
+    max-height: none; 
+ }
+  
+.audioHidden {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 40px; 
+    height: 40px;
+    overflow: hidden;
+}
+  
+
+.audiowrapper input[type="file"] {
+    margin-top: 10px;
+}
+  
+.btn {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+  
+.configbtn {
+    margin-top: 10px;
+    border-radius: 8px;
+    color: white;
+    background-color: gray;
+    height: 40px;
+}
+  
+.configbtn:hover {
+    background-color: rgb(99, 98, 98);
+}
+  
+.iconWrapper {
+    cursor: pointer;
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.iconRotate {
+    transform: rotate(180deg);
+}
+  

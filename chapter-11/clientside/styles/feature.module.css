@@ -1,0 +1,132 @@
+.FeaturePageImage{
+    background-image: url("../assets/images/dark-bg-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.LeaderboardPageImage{
+  background-image: url("../assets/images/rock-paper-scissor.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.GamecoinPageImage{
+  background-image: url("../assets/images/coin.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.GamedicePageImage{
+  background-image: url("../assets/images/dadu.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.featureTitle {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #9e9393;  
+    font-size: 30px; 
+}
+  
+.featureDescription {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #9e9393;  
+    font-size: 25px; 
+}
+
+.mderwSm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-width: 2xl;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 10px;
+}
+  
+.rectangleItem {
+    width: 300px; /* Adjust the width of each item */
+    height: 530px; /* Adjust the height of each item */
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+  
+.rectangleItem::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity as needed */
+    z-index: 1;
+}
+  
+.rectangleItemContent {
+    position: relative;
+    z-index: 2;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.played {
+  border: 2px solid #ffcc00; /* You can customize this color */
+}
+
+.playedText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.tableStyle{
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 10px; 
+}
+
+.buttonPDF{
+  position: absolute;
+  bottom: 60px;
+  left: 18%;
+}
+
+  @media (min-width: 768px) {
+    .mderw-sm {
+      max-width: 2xl;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .mderw-sm {
+      max-width: none;
+    }
+  }
+  

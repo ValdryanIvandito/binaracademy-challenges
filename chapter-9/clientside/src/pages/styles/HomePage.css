@@ -1,0 +1,73 @@
+.HomePage {
+  text-align: center;
+}
+
+.HomePage-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.HomePage-img{
+  background-image: url("../assets/images/dark-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carousel-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px; /* Adjust the height as per your requirements */
+  width: 800px;
+}
+
+.content-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.welcome-text {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #9e9393; 
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .HomePage-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.HomePage-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.HomePage-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,18 @@
+express --view ejs --git BinarAcademy_Challenge_FSWC7
+cd BinarAcademy_Challenge_FSWC7
+npm install
+npm install nodemon --save-dev dotenv-load --save-dev
+npm install jsonwebtoken
+npm install sequelize pg pg-hstore
+npm install crypto-js
+npm install socket.io
+mkdir config
+touch config/index.js
+touch .env
+mkdir models
+touch models/user-model.js
+mkdir controllers
+touch controllers/main-controllers.js
+mkdir lib
+touch lib/authorization-check.js
+touch lib/game.js

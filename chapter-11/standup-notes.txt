@@ -1,0 +1,7 @@
+TASK CHALLENGE-11
+1. Implementasi ESlint (Include Repo), Initial Job. (PIC: Valdryan)
+2. Fitur convert tampilan table leaderboard jadi pdf view dan file download pdf. (PIC: Soman)
+3. Fitur BGM & Upload Custom BGM di gamelist page. (PIC: Ignasio)
+4. Implementasi unit test BE pakai jest. (PIC: Rizky, Backup: Valdryan)
+5. Implementasi unit test FE pakai jest. (PIC: Rizky)
+6. Implementasi Github CI/CD. (Kurnia, Backup: Valdryan)

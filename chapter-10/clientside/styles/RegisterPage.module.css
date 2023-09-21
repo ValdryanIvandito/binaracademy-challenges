@@ -1,0 +1,63 @@
+.HomePageImage{
+    background-image: url("../assets/images/dark-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 125vh;
+}
+
+.registerPageTitle {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.RegisterContainer {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.alertContainer {
+    max-width: 300px;
+    margin: 0 auto;
+}
+    
+.textLabel {
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+  
+.textDescription {
+    color: white;
+    font-size: 15px;
+}
+
+.linkText {
+    color: white;
+}
+
+.input[type='text'],
+.input[type='email'],
+.input[type='password'] {
+    /* width: 100%; */
+    /* padding: 10px; */
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+ 
+.buttonStyle[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

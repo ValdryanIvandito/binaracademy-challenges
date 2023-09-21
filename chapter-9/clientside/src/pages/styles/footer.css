@@ -1,0 +1,25 @@
+/* Footer styles */
+.footer {
+  background-color: #1c2228;
+  padding: 20px 0;
+}
+
+.social-media-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-media-links li {
+  display: inline-block;
+}
+
+.social-media-links a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.social-media-links svg {
+  font-size: 30px;
+}

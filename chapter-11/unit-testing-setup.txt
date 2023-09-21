@@ -1,0 +1,4 @@
+npm init (Jika belum ada package.json)
+npm i jest@27.4.2 --save-dev
+npm i supertest --save-dev
+node_modules/jest/bin/jest.js --init
